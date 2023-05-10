@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* 
+0d1b2a
+1b263b
+415a77
+778da9
+e0e1dd
+*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1b263b;
+    color: #ccc;
+}
+
+#card.container-card {
+    background: #0d1b2a;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem auto;
+    padding: 3rem 7rem;
+    border-radius: 5px;
+}
+
+#card .order-msg {
+    text-transform: uppercase;
+    background: #06282d;
+    color: #08a5a5;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 1px solid #08a5a5;
+    width: 50%;
+    text-align: center;
+    padding: 0.2rem 0;
+    border-radius: 10px;
+}
+
+#card .order-info {
+    font-size: 0.9rem;
+    margin: 2rem 0;
+}
+
+#card .order-info span {
+    font-weight: 600;
+    background: #212f48;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+}
+
+#card .order-content {
+    background: #212f48;
+    border-radius: 5px;
+    padding: 2rem 2rem 0 2rem;
+}
+
+#card .order-content>div {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+#card .address-info div {
+    padding: 0.5rem 0;
+}
+
+#card .address-info i,
+#card .additional-request i {
+    padding-right: 0.5rem;
+}
+
+#card .additional-request {
+    background: #212f48;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+#card .payment-details {
+    font-size: 0.7rem;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
